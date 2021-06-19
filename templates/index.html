@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ <h1 style="text-align:center;background-color: coral;">Welcome to the text analyzer</h1>
+ <h1 style="background-color: aqua; text-align:center;";>Enter your text below:</h1>
+ <div>
+ <form action="/analyze" method="get">
+ <textarea name="text" style="margin: 0px; width: 1512px; height: 75px;background-color: yellow;" placeholder="Enter your text here"></textarea>
+     <div style=" display:flex; padding:2% 25%;color: blue;">
+     <input style="color: blue;" type="checkbox" name="removepunc">remove punctuations<br>
+     <input type="checkbox" name="captext">capitalize text<br>
+         <input type="checkbox" name="newlineremover">Newlineremover<br>
+      <input type="checkbox" name="extraspaceremover">Extra space remover<br>
+      <input type="checkbox" name="charcounter">character counter<br>
+     </div>
+
+<div style="text-align:center;">
+<button style="background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;" type="submit">analyze text</button>
+    </div>
+ </form>
+</div>
+</body>
+</html>
